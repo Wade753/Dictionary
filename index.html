@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="width=device-width,initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Dictionary</title>
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Dictionary</h1>
+        </header>
+    <form name="dictionaryAdd">
+        <div>
+            <p>Please insert a word in the dictionary</p>
+            <input type="text" id="add" name="addNewWord" parttern="[a-z]" required>
+            <button type="submit" id="addWord" name="addToIndex" onclick="addToArray()">Insert</button>
+            <p id="addMessage"></p>
+        </div>  
+    </form>
+    <form name="dictionaryFind"></form>
+        <div>
+            <p>Search in dictionary</p>
+            <input type="text" id="find" name="findNewWord" pattern="[a-z]" required>
+            <button type="submit", id="findWord", name="findInIndex" onclick="findInArray()">Find</button>
+            <p id="findMessage"></p>
+        </div>  
+    </form>
+    </body>
+</html>

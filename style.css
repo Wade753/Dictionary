@@ -1,0 +1,17 @@
+h1 { color: rgb(103, 4, 196);
+     font-family: "Comic Sans MS", "Comic Sans", cursive; 
+     text-align: center;
+}
+div { text-align: center;
+      font-weight: bold;
+      color:coral;
+}
+button { color:rgb(255, 255, 255);
+         font-weight: bold;
+         background-color: black;
+         border-color: blue;
+}
+input { color: gold;
+        background-color: blue;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
